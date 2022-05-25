@@ -1,0 +1,139 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+ }
+ #header{
+   height: 100vh;
+   background-image: url(images/DIFFERENT_TYPES_of_WEBSITES_jpg_CIaku32S-700x410.avif);
+   background-position: center;
+   background-size: cover;
+ }
+ .container{
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.logo{
+  margin-top: 30px;
+  width: 100px;
+}
+.header-text{
+  max-width: 350px;
+  margin-top: 120px;
+}
+h1{
+  font-size: 34px;
+}
+.square{
+  height: 12px;
+  width: 12px;
+  display: inline-block;
+  background: #ff0000;
+  margin: 15px 0;
+}
+p{
+  font-size: 15px;
+  line-height: 18px;
+  color: #ff0000;
+}
+
+.line-1{
+  width: 15px;
+  height: 15px;
+  background: #ff0000;
+  display: inline-block;
+}
+.line-2{
+  width: 80px;
+  height: 1px;
+  background: #ff0000;
+  display: inline-block;
+}
+.line-3{
+  width: 60px;
+  height: 1px;
+  background: #ff0000;
+  display: inline-block;
+}
+.line{
+  line-height: 8px;
+}
+.common-btn{
+  padding: 18px 40px;
+  background: transparent;
+  outline: none;
+  border: 2px solid #ff0000;
+  font-weight: bold;
+  cursor: pointer; 
+}
+
+/*--footer--*/
+
+#footer{
+  padding: 50px 0 30px;
+}
+hr{
+  width: 100%;
+  border: 0;
+  border-top: 1px solid #70ff00;
+}
+.footer-row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-left-col{
+  flex-basis: 50%;
+  margin-top: 60px;
+}
+.footer-right-col{
+  flex-basis: 35%;
+}
+.footer-links{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.link-title h4{
+  color: #70ff00;
+  margin-bottom: 20px;
+}
+.link-title small{
+  font-size: 13px;
+  color: #00008f;
+}
+.footer-info{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-logo img{
+  width: 100px;
+}
+.footer-logo button{
+  padding: 12px 38px;
+  margin-top: 20px;
+  font-size: 10px;
+}
+.copyright-text, .footer-logo{
+  flex-basis: 40%;
+}
+
+/*---social-icons---*/
+
+.social-icons{
+  width: 50px;
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+.social-icons img{
+  display: block;
+  width: 20px;
+  margin: 0 auto 20px;
+  cursor: pointer;
+}
